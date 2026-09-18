@@ -1,0 +1,116 @@
+/* Jolly Rancher World Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFD60A;
+    color: #333333;
+}
+
+header {
+    background-color: #E63946;
+    color: white;
+    padding: 1rem;
+}
+
+header span {
+    font-family: "Fredoka", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+h1 {
+    font-family: "Fredoka", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #E63946;
+}
+
+h2 {
+    font-family: "Fredoka", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #3A86FF;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    display: block;
+    min-height: 48px;
+    line-height: 48px;
+    padding: 0 15px;
+    text-decoration: none;
+    color: #52B788;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #3A86FF;
+    color: white;
+}
+
+nav li.active a {
+    background-color: #E63946;
+    color: white;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 30px;
+    margin: 10px;
+}
+
+ol {
+    padding-left: 30px;
+    margin: 10px;
+}
+
+dl {
+    border: 2px solid #3A86FF;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+dt {
+    font-weight: bold;
+    color: #E63946;
+}
+
+dd {
+    margin-bottom: 10px;
+}
+
+address {
+    border: 2px solid #52B788;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+main a {
+    color: #3A86FF;
+}
+
+main a:hover {
+    color: #E63946;
+}
+
+footer {
+    background-color: #3A86FF;
+    color: white;
+    padding: 10px;
+}

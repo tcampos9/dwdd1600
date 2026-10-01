@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Tamara Campos">
+    <meta name="description" content="Create your own custom Jolly Rancher candy mix">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jolly Rancher World - Create a Mix</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Start Page Header -->
+    <header>
+        <span>Jolly Rancher World</span>
+    </header>
+
+    <!-- Start Navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="flavors.html">Flavors</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li class="active"><a href="form.html">Create a Mix</a></li>
+        </ul>
+    </nav>
+
+    <!-- Start Main Content -->
+    <main>
+
+        <h1>Build Your Perfect Jolly Rancher Mix</h1>
+
+        <p>
+            Create your own Jolly Rancher mix by telling us about yourself
+            and choosing your favorite candy options.
+        </p>
+
+        <form method="get" class="myForm" action="thanks.html">
+
+            <!-- Candy Fan Information -->
+            <fieldset>
+                <legend>Candy Fan Information</legend>
+
+                <label>
+                    Name*
+                    <input type="text" name="name" required>
+                </label>
+
+                <label>
+                    Email*
+                    <input type="email" name="email" required>
+                </label>
+
+                <label>
+                    Phone Number*
+                    <input type="tel" name="phone" placeholder="801-555-1234" required>
+                </label>
+            </fieldset>
+
+            <!-- Build Your Mix -->
+            <fieldset>
+                <legend>Build Your Mix</legend>
+
+                <p>Which type of Jolly Rancher candy do you like best?</p>
+
+                <label>
+                    <input type="radio" name="candytype" value="hard-candy">
+                    Hard Candy
+                </label>
+
+                <label>
+                    <input type="radio" name="candytype" value="gummies">
+                    Gummies
+                </label>
+
+                <label>
+                    <input type="radio" name="candytype" value="lollipops">
+                    Lollipops
+                </label>
+
+                <p>Which flavors would you include in your perfect mix?</p>
+
+                <label>
+                    <input type="checkbox" name="blue-raspberry" value="chosen">
+                    Blue Raspberry
+                </label>
+
+                <label>
+                    <input type="checkbox" name="cherry" value="chosen">
+                    Cherry
+                </label>
+
+                <label>
+                    <input type="checkbox" name="watermelon" value="chosen">
+                    Watermelon
+                </label>
+
+                <label>
+                    <input type="checkbox" name="green-apple" value="chosen">
+                    Green Apple
+                </label>
+
+                <label>
+                    <input type="checkbox" name="grape" value="chosen">
+                    Grape
+                </label>
+            </fieldset>
+
+            <!-- Customize Your Mix -->
+            <fieldset>
+                <legend>Customize Your Mix</legend>
+
+                <label>
+                    Choose Your Mix Size
+                    <select name="mixsize">
+                        <option value="">Please Select</option>
+                        <option value="small">Small Mix</option>
+                        <option value="medium">Medium Mix</option>
+                        <option value="large">Large Mix</option>
+                        <option value="party">Party Mix</option>
+                    </select>
+                </label>
+
+                <label>
+                    Tell us what would make your perfect Jolly Rancher mix.
+                    <textarea name="mixideas"></textarea>
+                </label>
+            </fieldset>
+
+            <input type="submit" value="Create My Mix">
+
+        </form>
+
+    </main>
+
+    <!-- Start Footer -->
+    <footer>
+        <p>&copy; 2026 &bull; Tamara Campos &bull; Web Essentials</p>
+    </footer>
+
+</body>
+
+</html>
